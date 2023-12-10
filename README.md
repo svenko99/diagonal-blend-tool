@@ -4,9 +4,7 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 
 ## Examples
 
-![Result1](images/example1.png)
-![Result2](images/example2.png)
-![Result3](images/example3.png)
+![examples](images/animated.gif)
 
 ## Usages
 
