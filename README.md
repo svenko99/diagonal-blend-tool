@@ -6,7 +6,7 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 
 ![examples](images/animated_example2.gif)
 
-## Usages
+## Usage
 
 ### Prerequisites
 
