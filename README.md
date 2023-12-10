@@ -1,6 +1,7 @@
-# 🔲 Dark Light Showcase Tool
+# 🔲 Diagonal Blend Tool
 
-This is a simple command-line tool designed for showcasing light and dark modes of websites by overlaying two images with a triangle mask. It utilizes the Python Imaging Library (PIL) for image processing.
+This is a simple command-line tool designed to blend two images along a diagonal axis.
+Its creation was inspired by the desire to showcase both the dark and light modes of my website within a single image.
 
 ## 📝 Examples
 
