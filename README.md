@@ -29,6 +29,6 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 
 3. Run the script by providing paths to the input images and the desired output path:
 
-```bash
-python src/main.py image1.png image2.png output.png
-```
+   ```bash
+   python src/main.py image1.png image2.png output.png
+   ```
