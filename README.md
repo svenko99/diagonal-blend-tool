@@ -2,10 +2,11 @@
 
 This is a simple command-line tool designed for showcasing light and dark modes of websites by overlaying two images with a triangle mask. It utilizes the Python Imaging Library (PIL) for image processing.
 
-## Example Results
+## Examples
 
 ![Result1](images/result.png)
-
+![Result2](images/result2.png)
+![Result3](images/result3.png)
 
 ## Usage
 
