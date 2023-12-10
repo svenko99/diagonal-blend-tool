@@ -12,7 +12,10 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 
 - Python 3.x
 - Pillow library (`pip install Pillow`)
-- **Both images need to have the same size, otherwise the script won't work!**
+
+### Both images need to have the same size, otherwise the script won't work!
+
+- I achieve this by using Firefox's tool `Take screenshot` when I right click on a website, and I click `Save visible`.
 
 ### Installation
 
