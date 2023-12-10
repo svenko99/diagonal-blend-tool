@@ -24,13 +24,11 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-repo
+   cd dark-light-showcase
    ```
 
-### Usage
-
-Run the script by providing paths to the input images and the desired output path:
+3. Run the script by providing paths to the input images and the desired output path:
 
 ```bash
-./overlay_images.py image1.png image2.png output.png
+python src/main.py image1.png image2.png output.png
 ```

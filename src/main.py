@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+import os
+import argparse
 
 from PIL import Image, ImageDraw
-import argparse
 
 
 def overlay_images(image_path1, image_path2, output_path):
@@ -38,11 +38,14 @@ def main():
     parser.add_argument("output", help="Path to save the result")
 
     args = parser.parse_args()
+
+    # Convert relative paths to absolute paths
+    image1_path = os.path.abspath(args.image1)
+    image2_path = os.path.abspath(args.image2)
+    output_path = os.path.abspath(args.output)
     try:
-        overlay_images(args.image1, args.image2, args.output)
+        overlay_images(image1_path, image2_path, output_path)
     except ValueError as e:
         print(e)
 
 
-if __name__ == "__main__":
-    main()
