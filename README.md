@@ -12,6 +12,7 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 
 - Python 3.x
 - Pillow library (`pip install Pillow`)
+- **Both images need to have the same size, otherwise the script won't work!**
 
 ### Installation
 
