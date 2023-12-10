@@ -4,7 +4,7 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 
 ## Examples
 
-![examples](images/animated.gif)
+![examples](images/animated_examples.gif)
 
 ## Usages
 
