@@ -8,7 +8,7 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 ![Result2](images/result2.png)
 ![Result3](images/result3.png)
 
-## Usage
+## Usages
 
 ### Prerequisites
 
