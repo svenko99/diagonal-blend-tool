@@ -7,7 +7,7 @@ Its creation was inspired by the desire to showcase both the dark and light mode
 
 ![examples](images/animated_example2.gif)
 
-## Usage
+## 📊 Usage
 
 ### Prerequisites
 
