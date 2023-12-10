@@ -1,8 +1,8 @@
-# Dark Light Showcase Tool
+# 🔲 Dark Light Showcase Tool
 
 This is a simple command-line tool designed for showcasing light and dark modes of websites by overlaying two images with a triangle mask. It utilizes the Python Imaging Library (PIL) for image processing.
 
-## Examples
+## 📝 Examples
 
 ![examples](images/animated_examples.gif)
 
@@ -18,7 +18,7 @@ This is a simple command-line tool designed for showcasing light and dark modes 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/svenko99/dark-light-showcase.git
    ```
 
 2. Navigate to the project directory:
