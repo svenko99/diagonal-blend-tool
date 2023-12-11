@@ -39,7 +39,7 @@ Its creation was inspired by the desire to showcase both the dark and light mode
    ```
 
 ## 🔄 Update
-- Upon further looking I have [found](https://bytefreaks.net/applications/imagemagick/imagemagick-collage-merge-two-images-diagonally) a way to achieve the same result using just [ImageMagick](https://imagemagick.org/index.php).
+- After further searching, I [found](https://bytefreaks.net/applications/imagemagick/imagemagick-collage-merge-two-images-diagonally) a way to achieve the same result using only [ImageMagick](https://imagemagick.org/index.php).
 - Here is the revised code:
   
   ```bash
