@@ -37,3 +37,29 @@ Its creation was inspired by the desire to showcase both the dark and light mode
    ```bash
    python src/main.py image1.png image2.png output.png
    ```
+
+## 🔄 Update
+- Upon further looking I have [found](https://bytefreaks.net/applications/imagemagick/imagemagick-collage-merge-two-images-diagonally) a way to achieve the same result using just [ImageMagick](https://imagemagick.org/index.php).
+- Here is the revised code:
+  
+  ```bash
+   # Set default filenames
+   LEFT=${1:-"image1.png"}
+   RIGHT=${2:-"image2.png"}
+   OUT="diagonal_blend.png"
+   
+   # Read image dimensions
+   DIMENSIONS=$(identify -format %wx%h "$LEFT")
+   WIDTH=${DIMENSIONS%x*}
+   HEIGHT=${DIMENSIONS#*x}
+   
+   # ImageMagick commands to merge images diagonally without intermediate files
+   convert -respect-parenthesis \
+   \( "$LEFT" -gravity north -crop "$WIDTH"x"$HEIGHT"+0+0 +repage \) \
+   \( "$RIGHT" -gravity east -crop "$WIDTH"x"$HEIGHT"+0+0 +repage \) \
+   \( -size "$WIDTH"x"$HEIGHT" xc:black -fill white -draw "polygon 0,0 0,$HEIGHT $WIDTH,0" \) \
+   \( -clone 2 -negate \) \
+   \( -clone 0 -clone 2 -alpha off -compose copy_opacity -composite \) \
+   \( -clone 1 -clone 3 -alpha off -compose copy_opacity -composite \) \
+   -delete 0-3 -compose over -composite "$OUT"
+  ```
