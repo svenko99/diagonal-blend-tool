@@ -23,13 +23,13 @@ Its creation was inspired by the desire to showcase both the dark and light mode
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/svenko99/dark-light-showcase.git
+   git clone https://github.com/svenko99/diagonal-blend-tool.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd dark-light-showcase
+   cd diagonal-blend-tool
    ```
 
 3. Run the script by providing paths to the input images and the desired output path:
